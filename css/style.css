@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #e6e2d7;
+    color: #000;
+    font-family: 'Noto Serif JP', serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+
+@media screen and (max-width: 768px) {
+}
