@@ -24,6 +24,57 @@ li {
     list-style: none;
 }
 
-
-@media screen and (max-width: 768px) {
+.site-title {
+    line-height: 1px;
+    margin-left: 60px;
 }
+
+.site-title img {
+    width: 40px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ヘッダー */
+
+#header {
+    background-image: url("../img/mainvisual-pc.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    writing-mode: vertical-rl;
+    position: relative;
+    margin-bottom: 180px;
+    padding: 60px 80px;
+}
+
+#header .onlinestore {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    background-color: rgba(255,255,255,0.2);
+    padding: 8px;
+}
+
+#header .onlinestore a {
+    border: solid 1px #ccc;
+    padding: 30px 18px;
+    display: block;
+}
+
+#header .onlinestore a:hover {
+    opacity: 0.7;
+} 
+
+#nav li {
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 768px) {}
