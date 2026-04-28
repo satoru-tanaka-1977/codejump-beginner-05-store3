@@ -139,13 +139,13 @@ li {
     line-height: 1;
 }
 
-.products .ja {
+.products .section-title .ja {
     font-size: 2rem;
     letter-spacing: 0.1em;
     margin-bottom: 18px;
 }
 
-.products .en {
+.products .section-title .en {
     font-size: 0.875rem;
 }
 
@@ -214,10 +214,7 @@ li {
     margin-bottom: 10px;
 }
 
-#footer .inner .left {
-    writing-mode: vertical-rl;
-}
-
+#footer .inner .left,
 #footer .inner .right {
     writing-mode: vertical-rl;
 }
@@ -292,4 +289,55 @@ li {
     #news .list dd {
         padding: 15px 0 15px 12px;
     }
+
+    /* プロダクツ */
+
+    .products {
+        margin-bottom: 80px;
+    }
+
+    .products .ja {
+        font-size: 1.5rem;
+    }
+
+    .products .en {
+        display: none;
+    }
+
+    .products .img {
+        width: 90%;
+        margin-top: 70px
+    }
+
+    .products .text {
+        padding: 30px 0;
+        font-size: 0.875rem;
+        width: 64%
+    }
+
+    #products1 .section-title {
+        margin-left: 10px;
+    }
+
+    #products2 .section-title {
+        margin-right: 10px;
+    }
+
+    #footer {
+        padding: 40px 20px 30px;
+    }
+
+    #footer .inner .right .logo {
+        margin-left: 30px;
+    }
+
+    #footer .inner .right .menu {
+        margin-right: 30px;
+        font-size: 0.875rem;
+    }
+
+    #footer .inner .right .menu li {
+        margin-left: 10px;
+    }
+
 }
