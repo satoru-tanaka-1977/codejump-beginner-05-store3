@@ -245,4 +245,51 @@ li {
     font-size: 0.625rem;
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+
+    /* ヘッダー */
+    #header {
+        background-image: url(../img/mainvisual-sp.jpg);
+        padding: 20px 20px;
+        margin-bottom: 80px;
+    }
+
+    #header .onlinestore {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    /* ニュース */
+
+    #news {
+        margin-bottom: 80px;
+    }
+
+    #news .section-title .ja {
+        font-size: 1.75rem;
+    }
+
+    #news .list dt:nth-of-type(n + 4) {
+        display: none;
+    }
+
+    #news .list dd:nth-of-type(n + 4) {
+        display: none;
+    }
+
+    #news .list dd:last-child {
+        border-left: none;
+    }
+
+    #news .list dd:nth-of-type(3) {
+        border-left: solid 1px #000;
+    }
+
+    #news .list dt {
+        padding: 15px 12px 15px 5px;
+    }
+
+    #news .list dd {
+        padding: 15px 0 15px 12px;
+    }
+}
