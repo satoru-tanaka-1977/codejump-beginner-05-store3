@@ -29,6 +29,10 @@ li {
     margin-left: 60px;
 }
 
+.site-title a {
+    display: block;
+}
+
 .site-title img {
     width: 40px;
 }
@@ -185,6 +189,60 @@ li {
 #products2 .text {
     background: rgba(149, 42, 38, 0.6);
     right: -20px;
+}
+
+/* ショップ */
+
+#shop iframe {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/* フッター */
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    padding: 80px 80px 30px 30px;
+}
+
+#footer .inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+}
+
+#footer .inner .left {
+    writing-mode: vertical-rl;
+}
+
+#footer .inner .right {
+    writing-mode: vertical-rl;
+}
+
+#footer .inner .right .logo {
+    width: 40px;
+    margin-left: 60px;
+}
+
+#footer .inner .right .info {
+    line-height: 2;
+}
+
+#footer .inner .right .menu {
+    margin-right: 60px;
+    font-size: 1rem;
+}
+
+#footer .inner .right .menu li {
+    margin-left: 25px;
+}
+
+#footer .copyright {
+    text-align: center;
+    font-size: 0.625rem;
 }
 
 @media screen and (max-width: 768px) {}
